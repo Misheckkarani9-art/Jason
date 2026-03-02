@@ -60,6 +60,22 @@ for (let i = 10; i >= 1; i--) {
 
 console.log("=========================")
 
+//Write a for loop to print all odd numbers from 1 to 19.
+for (let i =1; i<=19; i++){
+    if(1 % 2 !== 0){
+        console.log(i);
+    }
+}
+//Write a for loop to count down from 10 to 1 and print the numbers in the console.
+//Write a for loop to find the largest number in the array: [10, 20, 4, 45, 99, 1].
+//Write a for loop to print the multiplication table of 5 from 5 x 1 to 5 x 10.
+//Research on arrow function, functions with parameters and anonymous functions in javascript.
+//functions with parameters
+// Function that greets a person
+function greet(name) {
+    console.log("Hello, " + name + "!");
+}
 
-// Research on arrow function, functions with parameters and anonymous functions in javascript.
-
+// Call the function
+greet("Misheck");  // Output: Hello, Misheck!
+greet("Alex");     // Output: Hello, Alex!
