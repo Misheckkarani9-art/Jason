@@ -6,8 +6,14 @@ let person = {
     isheavoter: true,
 
 };
+//use of dot notation
 console.log(person.isheavoter); // The answers is true
 
-// Array it is used to arrange listg of values in an ordered manner.They are indexed by numbers from zero.
+// first notation is by use of square brackets
+console.log(person["age"])
+// Check data type
+console.log(typeof(person))
+
+// Array it is used to arrange list of values in an ordered manner.They are indexed by numbers from zero.
 let accessories = ["Phones","laptops","pods","hoovers"];
 console.log(accessories[2])// The answer is pods
